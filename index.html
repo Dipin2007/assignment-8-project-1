@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Makes the layout scale correctly on phones and tablets. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal portfolio of a first-year engineering student.">
+    <title>Your Name | Student Portfolio</title>
+    <!-- Connects this page to the separate stylesheet. -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation bar: the links jump to sections on this page. -->
+    <header class="site-header">
+        <nav class="navbar container" aria-label="Main navigation">
+            <a class="logo" href="#home">Dipin<span>Bhatta</span></a>
+
+            <!-- CSS turns these links into a compact, wrapping menu on small screens. -->
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a class="nav-contact" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero section: replace the sample image and text with your own details. -->
+        <section class="hero section" id="home">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <p class="eyebrow">FIRST-YEAR ENGINEERING STUDENT</p>
+                    <h1>Hi, I'm <span>Dipin Bhatta.</span></h1>
+                    <h2>Learning today. Building tomorrow.</h2>
+                    <p class="hero-description">
+                        I'm an engineering student exploring programming, creative problem-solving,
+                        and technology one project at a time.
+                    </p>
+                    <div class="hero-actions">
+                        <a class="button button-primary" href="#projects">Explore my work</a>
+                        <a class="button button-outline" href="#contact">Get in touch</a>
+                    </div>
+                </div>
+
+                <!-- Replace this placeholder photo URL with your own image file if preferred. -->
+                <div class="profile-wrap">
+                    <div class="profile-glow"></div>
+                    <img
+                        class="profile-photo"
+                        src="1310203.png"
+                        alt="Profile portrait placeholder"
+                    >
+                    <span class="profile-badge">✨ Curious by nature</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- About section: a short introduction and current learning goals. -->
+        <section class="section section-muted" id="about">
+            <div class="container narrow">
+                <p class="eyebrow">A LITTLE ABOUT ME</p>
+                <h2 class="section-title">Curiosity is where it starts.</h2>
+                <p class="section-intro">
+                    I'm currently in my first year of engineering and building a strong foundation
+                    in computer science. I enjoy understanding how things work, learning new tools,
+                    and turning small ideas into useful projects. I'm excited to keep learning,
+                    collaborate with others, and grow as a developer.
+                </p>
+                <div class="about-pills">
+                    <span>🎓 Engineering student</span>
+                    <span>💡 Always learning</span>
+                    <span>🤝 Teamwork</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills section: edit these items to match the skills you actually have. -->
+        <section class="section" id="skills">
+            <div class="container">
+                <p class="eyebrow">WHAT I'M LEARNING</p>
+                <h2 class="section-title">My skills</h2>
+                <p class="section-subtitle">A growing toolkit, one concept at a time.</p>
+
+                <div class="skills-grid">
+                    <article class="skill-card">
+                        <div class="skill-icon">⌨️</div>
+                        <h3>Programming</h3>
+                        <p>Python, C++ basics, and problem-solving fundamentals.</p>
+                    </article>
+                    <article class="skill-card">
+                        <div class="skill-icon">🌐</div>
+                        <h3>Web development</h3>
+                        <p>HTML, CSS, responsive layouts, and accessible structure.</p>
+                    </article>
+                    <article class="skill-card">
+                        <div class="skill-icon">🧰</div>
+                        <h3>Tools</h3>
+                        <p>Git, GitHub, code editors, and learning through practice.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects section: sample projects can be replaced as you build your own. -->
+        <section class="section section-muted" id="projects">
+            <div class="container">
+                <p class="eyebrow">A FEW THINGS I'VE TRIED</p>
+                <h2 class="section-title">My projects</h2>
+                <p class="section-subtitle">Small steps that help me learn by doing.</p>
+
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <div class="project-art art-one"><span>01</span><span>🌐</span></div>
+                        <div class="project-body">
+                            <p class="project-type">WEB DEVELOPMENT</p>
+                            <h3>Personal Portfolio</h3>
+                            <p>A responsive website introducing me, my skills, and my learning journey.</p>
+                            <div class="tag-list"><span>HTML</span><span>CSS</span></div>
+                            <!-- Replace # with a real project URL when you publish it. -->
+                            <a class="project-link" href="#contact">Ask me about it <span>↗</span></a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-art art-two"><span>02</span><span>🧮</span></div>
+                        <div class="project-body">
+                            <p class="project-type">PROGRAMMING</p>
+                            <h3>Beginner Calculator</h3>
+                            <p>A simple practice program for arithmetic, user input, and basic logic.</p>
+                            <div class="tag-list"><span>Python / C++</span><span>Basics</span></div>
+                            <a class="project-link" href="#contact">Ask me about it <span>↗</span></a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-art art-three"><span>03</span><span>📚</span></div>
+                        <div class="project-body">
+                            <p class="project-type">LEARNING PROJECT</p>
+                            <h3>Study Notes Hub</h3>
+                            <p>A simple, organised place to collect useful notes and coding resources.</p>
+                            <div class="tag-list"><span>Planning</span><span>Organisation</span></div>
+                            <a class="project-link" href="#contact">Ask me about it <span>↗</span></a>
+                        </div>
+                    </article>
+                </div>
+                <p class="project-note">Tip: swap these examples for your own work as you complete projects.</p>
+            </div>
+        </section>
+
+        <!-- Contact section: update the email address before publishing your portfolio. -->
+        <section class="section" id="contact">
+            <div class="container">
+                <div class="contact-panel">
+                    <div>
+                        <p class="eyebrow">LET'S CONNECT</p>
+                        <h2>Have an idea or want to say hello?</h2>
+                        <p>I'm always happy to meet people, learn something new, and talk about projects.</p>
+                    </div>
+                    <a class="button button-light" href="mailto:dipinbhatta7@gmail.com">Email me <span>↗</span></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer: update the name and year if you reuse this template later. -->
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <p>© 2026 Your Name. Made with curiosity and CSS.</p>
+            <a href="#home">Back to top ↑</a>
+        </div>
+    </footer>
+</body>
+</html>
